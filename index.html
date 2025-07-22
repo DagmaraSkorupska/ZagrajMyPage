@@ -7,6 +7,7 @@
   <title>SportMate – Aplikacja Sportowa</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -19,19 +20,19 @@
   </header>
 
   <main>
-    <section class="image-section">
+    <section class="image-section reveal">
       <img src="image.png" alt="SportMate App Mockup" />
     </section>
 
-    <section class="description container">
-      <h2>📱 O projekcie</h2>
+    <section class="description container reveal">
+      <h2 class="reveal">📱 O projekcie</h2>
       <p>
         <strong>SportMate</strong> to nowoczesna aplikacja webowa (PWA), która umożliwia użytkownikom wyszukiwanie
         partnerów sportowych na podstawie lokalizacji, poziomu zaawansowania i dostępnych terminów. Aplikacja integruje
         chat realtime oraz mapy – zbudowana jako szybkie MVP z potencjałem rozwoju do wersji natywnej.
       </p>
 
-      <h2>🚀 Funkcje MVP</h2>
+      <h2 class="reveal">🚀 Funkcje MVP</h2>
       <ul>
         <li>🔐 Logowanie i rejestracja (Supabase Auth)</li>
         <li>👤 Tworzenie profilu i wybór sportów</li>
@@ -40,7 +41,7 @@
         <li>📲 Instalowalna PWA z offline cache</li>
       </ul>
 
-      <h2>🛠️ Stack technologiczny</h2>
+      <h2 class="reveal">🛠️ Stack technologiczny</h2>
       <ul>
         <li><strong>Frontend:</strong> Next.js (App Router), React, TypeScript, Tailwind CSS</li>
         <li><strong>Backend:</strong> Supabase (PostgreSQL, Auth, Realtime)</li>
