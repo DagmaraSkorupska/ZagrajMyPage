@@ -1,0 +1,100 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6fa;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header {
+  background: linear-gradient(135deg, #0f62fe, #3b82f6);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #0f62fe;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #e2e8f0;
+}
+
+main {
+  background: #fff;
+  margin: -2rem auto 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.image-section {
+  text-align: center;
+  background: #f9fafb;
+  padding: 2rem 1rem;
+}
+
+.image-section img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.description {
+  padding: 2rem 1.5rem;
+}
+
+.description h2 {
+  margin-top: 2rem;
+  color: #0f62fe;
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background: #f0f2f5;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+footer a {
+  color: #0f62fe;
+  text-decoration: none;
+}
